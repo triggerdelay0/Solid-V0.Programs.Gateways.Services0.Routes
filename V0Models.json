@@ -1,0 +1,93 @@
+[
+  // =========================================================================
+  // LM Studio (Local REST API: /v1/chat/completions или /v1/responses)
+  // Имя модели соответствует идентификатору из вкладки "My Models" в LM Studio
+  // =========================================================================
+  "lmstudio/default",
+  "lmstudio/qwen2.5-7b-instruct",
+  "lmstudio/meta-llama-3.1-8b-instruct",
+  "lmstudio/deepseek-r1-distill-qwen-7b",
+
+  // =========================================================================
+  // Google AI Studio (Gemini & Gemma) - Direct API
+  // =========================================================================
+  "google/gemma-4-26b-a4b-it",
+  "google/gemma-4-31b-it",
+  "google/gemini-3.5-flash-lite",
+  "google/gemini-3.1-flash-lite",
+  "google/gemini-2.5-flash-lite",
+  "google/gemini-3.7-flash",
+  "google/gemini-3.6-flash",
+  "google/gemini-3.5-flash",
+  "google/gemini-3-flash",
+  "google/gemini-2.5-flash",
+
+  // =========================================================================
+  // OpenCode Zen (Free Models)
+  // =========================================================================
+  "opencode/deepseek-v4-flash-free",
+  "opencode/muse-spark-1.2-free",
+  "opencode/nemotron-3-ultra-free",
+  "opencode/mimo-v2.5-free",
+  "opencode/laguna-s-2.1-free",
+  "opencode/nemotron-3.5-lightning-free",
+  "opencode/ling-3.0-flash-fin-free",
+
+  // =========================================================================
+  // OpenRouter Free Models
+  // =========================================================================
+  "openrouter/google/gemma-4-26b-a4b:free",
+  "openrouter/google/gemma-4-31b:free",
+  "openrouter/nvidia/nemotron-3-ultra:free",
+  "openrouter/nvidia/nemotron-3-super:free",
+  "openrouter/nvidia/nemotron-3.5-lightning:free",
+  "openrouter/nvidia/nemotron-3-nano-omni:free",
+  "openrouter/minimax/minimax-m3:free",
+  "openrouter/minimax/minimax-m2.7:free",
+  "openrouter/poolside/laguna-s-2.1:free",
+  "openrouter/poolside/laguna-xs-2.1:free",
+  "openrouter/z-ai/glm-5.2:free",
+  "openrouter/inclusionai/ling-3.0-flash-fin:free",
+  "openrouter/thinkingmachines/inkling:free",
+  "openrouter/thinkingmachines/inkling-small:free",
+  "openrouter/liquid/lfm-2.5-2.6b:free",
+  "openrouter/cohere/north-mini-code:free",
+  "openrouter/dots/dots3-note-preview:free",
+
+  // =========================================================================
+  // OrcaRouter & TokenRouter Free Models
+  // =========================================================================
+  "orcarouter/deepseek/deepseek-v4-flash-free",
+  "orcarouter/qwen/qwen3.8-27b-free",
+  "orcarouter/tencent/hy3-free",
+  "tokenrouter/z-ai/glm-5.3-free",
+
+  // =========================================================================
+  // Zhipu AI / Z.ai Flash
+  // =========================================================================
+  "zai/glm-4.7-flash",
+  "zai/glm-4.5-flash",
+  "zai/glm-4-flash",
+  "zai/glm-4-flashx",
+
+  // =========================================================================
+  // Alibaba Cloud DashScope (Qwen)
+  // =========================================================================
+  "alibaba/qwen3.8-max",
+  "alibaba/qwen3.8-27b",
+  "alibaba/qwen3.7-plus",
+  "alibaba/qwen3.7-max",
+  "alibaba/qwen3.6-plus",
+  "alibaba/qwen3.6-max",
+  "alibaba/qwen3.6-27b",
+  "alibaba/qwen3.5-plus",
+  "alibaba/qwen3.5-27b",
+  "alibaba/qwen3-max",
+  "alibaba/qwen-plus",
+  "alibaba/qwen3-coder-next",
+  "alibaba/qwen3.8-flash",
+  "alibaba/qwen3.7-flash",
+  "alibaba/qwen3.6-flash",
+  "alibaba/qwen3.5-flash",
+  "alibaba/qwen-flash"
+]

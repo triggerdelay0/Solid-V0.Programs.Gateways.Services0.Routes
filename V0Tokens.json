@@ -1,0 +1,61 @@
+{
+  // Fish Audio API Keys (для роутера синтеза речи и авторотации при 429)
+  "fishaudio": [
+    "YOUR_FISH_AUDIO_API_KEY_1",
+    "YOUR_FISH_AUDIO_API_KEY_2"
+  ],
+
+  // LM Studio API Tokens
+  "lmstudio": [
+    "lm-studio"
+  ],
+
+  // Google AI Studio API Tokens
+  "google": [
+    "AIzaSyExampleToken1",
+    "AIzaSyExampleToken2"
+  ],
+
+  // OpenCode Zen API Tokens
+  "opencode": [
+    "opencode-zen-example-token-1",
+    "opencode-zen-example-token-2"
+  ],
+
+  // OpenRouter API Keys
+  "openrouter": [
+    "sk-or-v1-example-token-1",
+    "sk-or-v1-example-token-2"
+  ],
+
+  // Alibaba DashScope API Keys
+  "alibaba": [
+    "sk-dashscope-example-token-1"
+  ],
+
+  // DeepSeek API Keys
+  "deepseek": [
+    "sk-deepseek-example-token-1"
+  ],
+
+  // Moonshot Kimi API Keys
+  "kimi": [
+    "sk-moonshot-example-token-1"
+  ],
+
+  // Zhipu Z.ai API Keys
+  "zai": [
+    "sk-zai-example-token-1",
+    "sk-zai-example-token-2"
+  ],
+
+  // OrcaRouter API Keys
+  "orcarouter": [
+    "sk-orcarouter-example-token-1"
+  ],
+
+  // TokenRouter API Keys
+  "tokenrouter": [
+    "sk-tokenrouter-example-token-1"
+  ]
+}

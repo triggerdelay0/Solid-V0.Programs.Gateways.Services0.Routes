@@ -1,0 +1,30 @@
+{
+  // Конфигурация веб-сервера API Gateway
+  "v0Server": {
+    "v0Host": "0.0.0.0",
+    "v0Port": 8042
+  },
+  // Настройки маршрутизатора запросов к моделям и сервисам
+  "v0Router": {
+    "v0PathFileModels": "V0Models.json",
+    "v0PathFileTokens": "V0Tokens.json",
+    "v0TimeoutSeconds": 120,
+    "v0CooldownSecondsOnRateLimit": 60,
+    // Базовые URL провайдеров
+    "v0ProviderUrls": {
+      "fishaudio": "https://api.fish.audio",
+      "lmstudio": "http://localhost:1234/v1",
+      "openrouter": "https://openrouter.ai/api/v1",
+      "google": "https://generativelanguage.googleapis.com/v1beta",
+      "alibaba": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+      "deepseek": "https://api.deepseek.com",
+      "kimi": "https://api.moonshot.cn/v1",
+      "zai": "https://open.bigmodel.cn/api/paas/v4",
+      "cohere": "https://api.cohere.com/v2",
+      "opencode": "https://opencode.ai/zen/v1",
+      "orcarouter": "https://api.orcarouter.ai/v1",
+      "tokenrouter": "https://api.tokenrouter.com/v1"
+    }
+  },
+  "v0IsVerbose": true
+}
